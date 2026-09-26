@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7eee8"><title>Vipsies — demo webshop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="announcement">GRATIS VERZENDING VANAF €75 · MET LIEFDE INGEPAKT</div>
+<header><a class="logo" href="#">VIPSIES</a><nav><a href="#nieuw">Nieuw</a><a href="#shop">Shop</a><a href="#over">Over Vipsies</a></nav><button id="cartBtn" class="icon">Tas <span id="cartCount">0</span></button></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">VIPSIES SELECTIE</p><h1>Items waar je blij van wordt.</h1><p>Een frisse, onafhankelijke webshopdemo — volledig vrij vorm te geven, zonder vast Shopify-thema.</p><a class="btn" href="#shop">Shop de collectie</a></div><div class="hero-art"><span>V</span><p>YOUR DAILY<br>DOSE OF HAPPY</p></div></section>
+<section class="intro" id="nieuw"><p class="eyebrow">JUST IN</p><h2>Nieuwe favorieten</h2><p>Een demo van hoe Vipsies buiten Shopify kan voelen: eigen branding, eigen indeling en ruimte voor precies de functies die jullie willen.</p></section>
+<section class="products" id="shop">
+<article class="product"><div class="photo p1"><span>NIEUW</span>VIPSIES</div><h3>Vipsies Statement Bag</h3><p class="price">€ 29,95</p><button data-name="Statement Bag" data-price="29.95">In mijn tas</button></article>
+<article class="product"><div class="photo p2"><span>FAVORIET</span>GOOD<br>VIBES</div><h3>Good Vibes Sweater</h3><p class="price">€ 44,95</p><button data-name="Good Vibes Sweater" data-price="44.95">In mijn tas</button></article>
+<article class="product"><div class="photo p3"><span>LIMITED</span>♥</div><h3>Daily Happy Accessoire</h3><p class="price">€ 14,95</p><button data-name="Daily Happy Accessoire" data-price="14.95">In mijn tas</button></article>
+<article class="product"><div class="photo p4"><span>NIEUW</span>HELLO<br>HAPPY</div><h3>Hello Happy Tee</h3><p class="price">€ 24,95</p><button data-name="Hello Happy Tee" data-price="24.95">In mijn tas</button></article>
+</section>
+<section class="freedom" id="over"><div><p class="eyebrow">BUITEN SHOPIFY</p><h2>Meer Vipsies.<br>Minder template.</h2></div><div><p>Deze demo draait gewoon als eigen website. De uitstraling, productkaarten, navigatie, acties en winkelwagen zijn dus niet gebonden aan een Shopify-theme.</p><p>Later kunnen hier echte productdata, voorraad, Mollie/PayPal, verzendlogica en een eigen beheeromgeving achter worden gezet.</p></div></section>
+<section class="newsletter"><p class="eyebrow">VIP MAIL</p><h2>Als eerste op de hoogte?</h2><p>Nieuwe drops, leuke acties en een beetje Vipsies in je inbox.</p><form onsubmit="event.preventDefault();this.innerHTML='<strong>Je staat op de lijst ♡</strong>'"><input type="email" required placeholder="jouw@email.nl"><button>Aanmelden</button></form></section>
+</main>
+<footer><strong>VIPSIES</strong><p>Demo — onafhankelijk webshopconcept</p><p>Instagram · Contact · Verzenden & retourneren</p></footer>
+<aside id="drawer" class="drawer"><div class="drawer-head"><h2>Mijn tas</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p class="empty">Je tas is nog leeg.</p></div><div class="cart-bottom"><div><span>Totaal</span><strong id="total">€ 0,00</strong></div><button class="checkout">Naar afrekenen — demo</button><small>Demo: er wordt geen echte betaling gestart.</small></div></aside><div id="overlay" class="overlay"></div>
+<script src="script.js"></script>
+</body></html>
