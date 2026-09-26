@@ -1,26 +1,19 @@
-<!doctype html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f7eee8"><title>Vipsies — demo webshop</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="announcement">GRATIS VERZENDING VANAF €75 · MET LIEFDE INGEPAKT</div>
-<header><a class="logo" href="#">VIPSIES</a><nav><a href="#nieuw">Nieuw</a><a href="#shop">Shop</a><a href="#over">Over Vipsies</a></nav><button id="cartBtn" class="icon">Tas <span id="cartCount">0</span></button></header>
+<!doctype html><html lang="nl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7eee8"><title>Vipsies — Very Important Pawsies</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="top">GRATIS verzending vanaf €75 <b>♡</b> Gratis cadeautje vanaf €25*</div>
+<header><a class="brand" href="#"><span>VIPSIES</span><small>VERY IMPORTANT PAWSIES</small></a><nav><a href="#shop">Shop</a><a href="#collecties">Collecties</a><a href="#personaliseer">Personaliseren</a><a href="#pawrents">For Pawrents</a></nav><button id="cartBtn" class="bag">Winkelmand <b id="cartCount">0</b></button></header>
 <main>
-<section class="hero"><div class="hero-copy"><p class="eyebrow">VIPSIES SELECTIE</p><h1>Items waar je blij van wordt.</h1><p>Een frisse, onafhankelijke webshopdemo — volledig vrij vorm te geven, zonder vast Shopify-thema.</p><a class="btn" href="#shop">Shop de collectie</a></div><div class="hero-art"><span>V</span><p>YOUR DAILY<br>DOSE OF HAPPY</p></div></section>
-<section class="intro" id="nieuw"><p class="eyebrow">JUST IN</p><h2>Nieuwe favorieten</h2><p>Een demo van hoe Vipsies buiten Shopify kan voelen: eigen branding, eigen indeling en ruimte voor precies de functies die jullie willen.</p></section>
-<section class="products" id="shop">
-<article class="product"><div class="photo p1"><span>NIEUW</span>VIPSIES</div><h3>Vipsies Statement Bag</h3><p class="price">€ 29,95</p><button data-name="Statement Bag" data-price="29.95">In mijn tas</button></article>
-<article class="product"><div class="photo p2"><span>FAVORIET</span>GOOD<br>VIBES</div><h3>Good Vibes Sweater</h3><p class="price">€ 44,95</p><button data-name="Good Vibes Sweater" data-price="44.95">In mijn tas</button></article>
-<article class="product"><div class="photo p3"><span>LIMITED</span>♥</div><h3>Daily Happy Accessoire</h3><p class="price">€ 14,95</p><button data-name="Daily Happy Accessoire" data-price="14.95">In mijn tas</button></article>
-<article class="product"><div class="photo p4"><span>NIEUW</span>HELLO<br>HAPPY</div><h3>Hello Happy Tee</h3><p class="price">€ 24,95</p><button data-name="Hello Happy Tee" data-price="24.95">In mijn tas</button></article>
-</section>
-<section class="freedom" id="over"><div><p class="eyebrow">BUITEN SHOPIFY</p><h2>Meer Vipsies.<br>Minder template.</h2></div><div><p>Deze demo draait gewoon als eigen website. De uitstraling, productkaarten, navigatie, acties en winkelwagen zijn dus niet gebonden aan een Shopify-theme.</p><p>Later kunnen hier echte productdata, voorraad, Mollie/PayPal, verzendlogica en een eigen beheeromgeving achter worden gezet.</p></div></section>
-<section class="newsletter"><p class="eyebrow">VIP MAIL</p><h2>Als eerste op de hoogte?</h2><p>Nieuwe drops, leuke acties en een beetje Vipsies in je inbox.</p><form onsubmit="event.preventDefault();this.innerHTML='<strong>Je staat op de lijst ♡</strong>'"><input type="email" required placeholder="jouw@email.nl"><button>Aanmelden</button></form></section>
-</main>
-<footer><strong>VIPSIES</strong><p>Demo — onafhankelijk webshopconcept</p><p>Instagram · Contact · Verzenden & retourneren</p></footer>
-<aside id="drawer" class="drawer"><div class="drawer-head"><h2>Mijn tas</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p class="empty">Je tas is nog leeg.</p></div><div class="cart-bottom"><div><span>Totaal</span><strong id="total">€ 0,00</strong></div><button class="checkout">Naar afrekenen — demo</button><small>Demo: er wordt geen echte betaling gestart.</small></div></aside><div id="overlay" class="overlay"></div>
-<script src="script.js"></script>
-</body></html>
+<section class="hero"><div class="heroText"><span class="pill">MADE FOR VERY IMPORTANT PAWSIES</span><h1>Voor honden met<br><em>persoonlijkheid.</em></h1><p>Van gepersonaliseerde bandana's en treatbags tot speelgoed, snacks en alles voor trotse pawrents.</p><a class="cta" href="#shop">Snuffel rond →</a></div><div class="heroVisual"><div class="dog">◖ᴥ◗</div><div class="scribble">good dogs<br>deserve<br>good stuff!</div><span class="stamp">V.I.P.<br>PAWSIE</span></div></section>
+<section class="trust"><span>♡ MET LIEFDE INGEPAKT</span><span>✦ PERSOONLIJK TE MAKEN</span><span>⌂ AFHALEN MOGELIJK</span><span>↟ VERZENDING VIA POSTNL / DHL</span></section>
+<section class="section" id="shop"><div class="heading"><div><p class="kicker">VIPSIES FAVORIETEN</p><h2>Voor jouw VIP</h2></div><a href="#collecties">Bekijk alles →</a></div>
+<div class="products">
+<article><a class="productImage bandana" href="https://vipsies.nl/products/custom-doggy-bandana"><span>PERSONALISEER</span><div class="fakeBandana">VIPSIE ♡</div></a><h3>Custom Doggy Bandana</h3><div class="buy"><p>€9,95</p><button data-name="Custom Doggy Bandana" data-price="9.95">+</button></div></article>
+<article><a class="productImage basket" href="https://vipsies.nl/products/custom-toys-or-treats-baskets"><span>CUSTOM</span><div class="fakeBasket">TOYS<br><small>for the goodest dog</small></div></a><h3>Custom Toys or Treats Basket</h3><div class="buy"><p>€19,95</p><button data-name="Custom Toys or Treats Basket" data-price="19.95">+</button></div></article>
+<article><div class="productImage paw"><span>VIPSIES PICK</span><div class="pawprint">●<br>● ●<br>●</div></div><h3>Stempelkussen voor hondenpootjes</h3><div class="buy"><p>€2,95</p><button data-name="Stempelkussen hondenpootjes" data-price="2.95">+</button></div></article>
+<article><div class="productImage treat"><span>PERSONALISEER</span><div class="fakeBag">TREATS<br><small>VIPSIE</small></div></div><h3>Treatbag gepersonaliseerd</h3><div class="buy"><p>€8,95</p><button data-name="Treatbag gepersonaliseerd" data-price="8.95">+</button></div></article>
+</div></section>
+<section class="personal" id="personaliseer"><div class="personalCard"><p class="kicker">MAAK 'M EIGEN</p><h2>Niet zomaar honden­spullen.</h2><p>Naam erop. Favoriete kleur kiezen. Helemaal passend bij jouw pawsie. Personalisatie verdient een hoofdrol in de shop in plaats van een klein invulvakje bij checkout.</p><a class="cta light" href="https://vipsies.nl/collections/gepersonaliseerde-items">Ontdek personalisatie →</a></div><div class="nameDemo"><p>this belongs to</p><strong id="dogName">BRUCE</strong><button id="rename">Probeer een naam</button></div></section>
+<section class="section collections" id="collecties"><p class="kicker">SHOP OP CATEGORIE</p><h2>Waar wordt jouw pawsie blij van?</h2><div class="collectionGrid"><a><b>Speelgoed<br>& knuffels</b><i>→</i></a><a><b>Halsbanden, riemen<br>& bandana's</b><i>→</i></a><a><b>Snacks</b><i>→</i></a><a id="pawrents"><b>For<br>Pawrents</b><i>→</i></a><a><b>Verzorging</b><i>→</i></a><a><b>Snoepzakjes<br>& organizers</b><i>→</i></a></div></section>
+<section class="manifesto"><p>VERY IMPORTANT PAWSIES</p><h2>Omdat je hond niet<br>“gewoon een hond” is.</h2><div>Een eigen storefront geeft Vipsies ruimte voor veel meer karakter: speelse interactie, personalisatie vóór het winkelmandje, sterkere collectiepagina's en later een eigen beheeromgeving — terwijl betaling en verzending gewoon gekoppeld kunnen worden.</div></section>
+<section class="newsletter"><span>🐾</span><p class="kicker">JOIN THE PACK</p><h2>VIP-mail voor pawrents</h2><p>Nieuwe items, leuke acties en pawsome post.</p><form onsubmit="event.preventDefault();this.innerHTML='<strong>Welkom bij de pack! ♡</strong>'"><input required type="email" placeholder="jouw@email.nl"><button>Ik doe mee →</button></form></section>
+</main><footer><a class="brand"><span>VIPSIES</span><small>VERY IMPORTANT PAWSIES</small></a><p>Conceptdemo buiten Shopify · Geen echte checkout</p></footer>
+<aside id="drawer" class="drawer"><div class="drawerHead"><h2>Winkelmand</h2><button id="closeCart">×</button></div><div id="cartItems" class="cartItems"></div><div class="cartBottom"><div><span>Totaal</span><strong id="total">€0,00</strong></div><button class="checkout">Afrekenen — demo</button><small>Dit prototype start geen echte betaling.</small></div></aside><div id="overlay"></div><script src="script.js"></script></body></html>
